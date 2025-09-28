@@ -12,7 +12,7 @@ const CONFIG = {
 
 // Module metadata
 const MODULE_INFO = {
-  name: 'SearchManga',
+  name: 'ai',
   description: 'Quickly find and share the latest chapters of any manga, manhwa, or manhua with direct, safe reading links.',
   usage: ' [your message]',
   author: 'coffee'
