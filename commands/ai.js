@@ -4,17 +4,17 @@ const { sendMessage } = require('../handles/sendMessage');
 
 // Configuration - Easy to replace
 const CONFIG = {
-  API_URL: 'https://mangaquest-10021969.chipp.ai/api/chat',
-  ORIGIN: 'https://mangaquest-10021969.chipp.ai',
-  REFERER: 'https://mangaquest-10021969.chipp.ai/w/chat/MangaQuest-10021969/session/b069f5e8-640c-4a93-ae8d-365b39d1faa3',
+  API_URL: 'https://mangasearch-10021975.chipp.ai/api/chat',
+  ORIGIN: 'https://mangasearch-10021975.chipp.ai',
+  REFERER: 'https://mangasearch-10021975.chipp.ai/w/chat/MangaSearch-10021975/session/b9d8a05e-d307-4d8c-b183-4f1bcb7c85d5',
   COOKIE: '__Host-next-auth.csrf-token=4723c7d0081a66dd0b572f5e85f5b40c2543881365782b6dcca3ef7eabdc33d6%7C06adf96c05173095abb983f9138b5e7ee281721e3935222c8b369c71c8e6536b; __Secure-next-auth.callback-url=https%3A%2F%2Fapp.chipp.ai; userId_70381=729a0bf6-bf9f-4ded-a861-9fbb75b839f5; correlationId=f8752bd2-a7b2-47ff-bd33-d30e5480eea8'
 };
 
 // Module metadata
 const MODULE_INFO = {
-  name: 'ai',
-  description: 'Quickly find and share the latest chapters of any manga, manhwa, or manhua with direct, safe reading links.',
-  usage: ' [your message]',
+  name: 'MangaSearch',
+  description: 'Quickly find and share the latest chapters of any manga, manhwa, manhua, and light novels with direct, safe reading links.',
+  usage: 'MangaSearch [Book Title]',
   author: 'coffee'
 };
 
