@@ -15,6 +15,7 @@
     "express": "^4.21.2",
     "form-data": "^4.0.2",
     "fs-extra": "^11.3.0",
+    "node-catbox": "^3.4.0",
     "node-fetch": "^3.3.2"
   },
   "engines": {
